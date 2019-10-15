@@ -4,6 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "lint": "yarn lint:calc & yarn lint:sum",
+    "lint:calc": "yarn workspace @monorepo/calc lint",
+    "lint:sum": "yarn workspace @monorepo/sum lint",
     "start": "yarn workspace @monorepo/calc start"
   },
   "workspaces": {
