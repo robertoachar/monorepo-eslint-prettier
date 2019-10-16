@@ -18,11 +18,12 @@ $ git clone https://github.com/robertoachar/monorepo-eslint-prettier.git
 $ yarn
 ```
 
-- Run
+- Run scripts
 
-```bash
-$ yarn start
-```
+| Action            | Usage        |
+| ----------------- | ------------ |
+| Start development | `yarn start` |
+| Lint code         | `yarn lint`  |
 
 ## Author
 
